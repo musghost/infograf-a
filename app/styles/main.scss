@@ -7,7 +7,7 @@ $font-confortaa: 'Comfortaa';
 
 /*COLOR CLASS*/
 $color-white: #fff;
-$color-primary: #002D40;
+$color-primary: #002c43;
 $color-secondary: #d92f47;
 
 
@@ -31,6 +31,11 @@ p{
 
 .text-indent-10 {
   text-indent: 10px;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .container {
@@ -57,7 +62,7 @@ p{
     display: inline-block;
     padding: 0 60px 10px 0;
     border-bottom: solid 2px red;
-    font-size: 2.20em;
+    font-size: 2em;
     text-transform: uppercase;
     @media (max-width: 600px) {
       font-size: 1.4em;
@@ -165,7 +170,7 @@ p{
   &-white {
     .title {
       h2 {
-        color: #092f42;
+        color: $color-primary;
       }
     }
     .subtitle {
@@ -184,7 +189,7 @@ p{
     }
 
     h4, p {
-        color: #092f42;
+        color: $color-primary;
     }
   }
 }
@@ -196,6 +201,7 @@ p{
   text-align: center;
   padding: 2% 5%;
   p {
+    color: $color-primary;
     max-width: 1000px;
     font-size: 26px;
     margin: 20px 0;
